@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "426534916744",
+    "project_id": "trade-mentor",
+    "storage_bucket": "trade-mentor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426534916744:android:694ef1fa97ba78b6d4c53d",
+        "android_client_info": {
+          "package_name": "com.example.trade_mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426534916744-gs0s4r5jk7cfn7bp6ocjchjjhkhtclg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trade_mentor",
+            "certificate_hash": "62da4ddd17652f3399148c18f964d248077e740e"
+          }
+        },
+        {
+          "client_id": "426534916744-nafg389h1o2uugcj4uovkp6gfdhpt37k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz-U2yFn6eL-VYyUyHgcLu-rDTqzUovqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426534916744-nafg389h1o2uugcj4uovkp6gfdhpt37k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Trade_Mentor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimaryDark">@color/background</item>
+    </style>
+
+    <style name="Theme.Trade_Mentor" parent="Base.Theme.Trade_Mentor" />
+    <style name="CustomShapeAppearance">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">50dp</item>
+    </style>
+    <style name="round">
+        <item name="neumorph_cornerSizeTopLeft">30dp</item>
+        <item name="neumorph_cornerSizeTopRight">30dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">0dp</item>
+        <item name="neumorph_cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="stock_details">
+        <item name="neumorph_cornerSizeTopLeft">0dp</item>
+        <item name="neumorph_cornerSizeTopRight">0dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">30dp</item>
+        <item name="neumorph_cornerSizeBottomRight">30dp</item>
+    </style>
+    <style name="edit_profile">
+        <item name="neumorph_cornerSizeTopLeft">0dp</item>
+        <item name="neumorph_cornerSizeTopRight">0dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">70dp</item>
+        <item name="neumorph_cornerSizeBottomRight">70dp</item>
+    </style>
+    <style name="btn">
+        <item name="neumorph_cornerFamily">oval</item>
+    </style>
+    <style name="shadow">
+        <item name="neumorph_shadowColorDark">@color/dark</item>
+        <item name="neumorph_shadowColorLight">@color/light</item>
+    </style>
+</resources>

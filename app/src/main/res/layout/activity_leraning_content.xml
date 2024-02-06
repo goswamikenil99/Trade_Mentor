@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".leraning_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-10dp"
+            android:layout_marginEnd="-10dp"
+            app:neumorph_shadowColorDark="@color/dark"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shapeAppearance="@style/stock_details">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn Trading..."
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="30dp"/>
+        </soup.neumorphism.NeumorphCardView>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/background"
+                android:drawableBottom="@drawable/learning_view"
+                android:text="All Courses"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/background"
+                android:drawableBottom="@drawable/learning_view"
+                android:text="Beginner"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/background"
+                android:drawableBottom="@drawable/learning_view"
+                android:text="Intermediate"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/background"
+                android:drawableBottom="@drawable/learning_view"
+                android:text="Expert"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:neumorph_shadowColorDark="@color/dark"
+        app:neumorph_shadowColorLight="@color/light"
+        app:neumorph_shapeType="pressed">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="Search Lessons"
+            android:textColorHint="#b9b9ba"
+            android:padding="20dp"
+            android:drawableStart="@drawable/search"
+            android:drawablePadding="20dp"/>
+    </soup.neumorphism.NeumorphCardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+    </ScrollView>
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:neumorph_shadowColorDark="@color/dark"
+        app:neumorph_shadowColorLight="@color/light"
+        app:neumorph_shapeAppearance="@style/round"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginEnd="-15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <soup.neumorphism.NeumorphButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shapeAppearance="@style/btn"
+                android:drawableStart="@drawable/house"
+                android:paddingStart="25dp"
+                android:gravity="center" />
+            <soup.neumorphism.NeumorphButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shapeAppearance="@style/btn"
+                android:drawableStart="@drawable/education"
+                android:paddingStart="25dp"
+                android:gravity="center"/>
+            <soup.neumorphism.NeumorphButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shapeAppearance="@style/btn"
+                android:drawableStart="@drawable/buy"
+                android:paddingStart="25dp"
+                android:gravity="center" />
+            <soup.neumorphism.NeumorphButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shapeAppearance="@style/btn"
+                android:drawableStart="@drawable/profit"
+                android:paddingStart="25dp"
+                android:gravity="center" />
+            <soup.neumorphism.NeumorphButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shapeAppearance="@style/btn"
+                android:drawableStart="@drawable/user"
+                android:paddingStart="25dp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </soup.neumorphism.NeumorphCardView>
+
+</LinearLayout>
