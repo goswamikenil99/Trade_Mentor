@@ -76,6 +76,7 @@
                     android:drawablePadding="10dp"
                     android:hint="UserName"
                     android:paddingStart="20dp"
+                    android:textColor="@color/text_color"
                     android:textColorHint="#b9b9ba"
                     tools:ignore="TouchTargetSizeCheck" />
             </soup.neumorphism.NeumorphCardView>
@@ -95,6 +96,7 @@
                     android:hint="Email-Id"
                     android:paddingStart="20dp"
                     android:textColorHint="#b9b9ba"
+                    android:textColor="@color/text_color"
                     tools:ignore="TouchTargetSizeCheck" />
             </soup.neumorphism.NeumorphCardView>
             <soup.neumorphism.NeumorphCardView
@@ -113,6 +115,7 @@
                     android:hint="Password"
                     android:paddingStart="20dp"
                     android:textColorHint="#b9b9ba"
+                    android:textColor="@color/text_color"
                     tools:ignore="TouchTargetSizeCheck" />
             </soup.neumorphism.NeumorphCardView>
             <soup.neumorphism.NeumorphCardView
@@ -130,6 +133,7 @@
                     android:hint="Mobile"
                     android:paddingStart="20dp"
                     android:textColorHint="#b9b9ba"
+                    android:textColor="@color/text_color"
                     tools:ignore="TouchTargetSizeCheck" />
             </soup.neumorphism.NeumorphCardView>
         </LinearLayout>
