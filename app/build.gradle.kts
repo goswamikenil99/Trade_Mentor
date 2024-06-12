@@ -1,10 +1,16 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace = "com.example.trade_mentor"
     compileSdk = 34
+
+    packagingOptions {
+        exclude("META-INF/INDEX.LIST")
+        exclude("META-INF/io.netty.versions.properties")
+    }
 
     defaultConfig {
         applicationId = "com.example.trade_mentor"
@@ -43,4 +49,10 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.github.fornewid:neumorphism:0.3.2")
     implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation("com.android.volley:volley:1.2.1")
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+    implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
+    implementation("com.android.volley:volley:1.2.1")
 }

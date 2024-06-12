@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "426534916744",
+    "firebase_url": "https://trade-mentor-default-rtdb.firebaseio.com",
     "project_id": "trade-mentor",
     "storage_bucket": "trade-mentor.appspot.com"
   },

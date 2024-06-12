@@ -4,43 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1a1a1a"
+    android:background="@color/background"
     tools:context=".MainActivity"
     android:orientation="vertical">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/blob_scene_haikei"
-        android:scaleType="centerCrop"/>
+        android:src="@drawable/login2"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"/>
 
-    <soup.neumorphism.NeumorphTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_marginTop="-70dp"
-        android:layout_marginEnd="10dp"
-        android:elevation="100dp"
-        android:text="Login.."
-        android:textSize="50dp"
-        app:neumorph_shadowColorDark="@color/dark"
-        app:neumorph_shadowColorLight="@color/light"
-        android:textStyle="bold"
-        android:textColor="@color/text_color2" />
     <soup.neumorphism.NeumorphCardView
         android:layout_width="400dp"
         android:layout_height="80dp"
-        app:neumorph_shadowColorLight="#242425"
-        app:neumorph_shadowColorDark="#151518"
+        app:neumorph_shadowColorLight="@color/light"
+        app:neumorph_shadowColorDark="@color/dark"
         app:neumorph_shapeType="pressed"
-        android:layout_marginTop="60dp">
+        android:layout_marginTop="60dp"
+        style="@style/Widget.Neumorph.CardView">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/email"
             android:hint="Email"
-            android:textColorHint="#b9b9ba"
             android:paddingStart="20dp"
-            android:textColor="@color/text_color"
             android:backgroundTint="@android:color/transparent"
             android:drawableLeft="@drawable/gmail__1_"
             android:drawablePadding="10dp" />
@@ -48,16 +35,14 @@
     <soup.neumorphism.NeumorphCardView
         android:layout_width="400dp"
         android:layout_height="80dp"
-        app:neumorph_shadowColorLight="#242425"
-        app:neumorph_shadowColorDark="#151518"
+        app:neumorph_shadowColorLight="@color/light"
+        app:neumorph_shadowColorDark="@color/dark"
         app:neumorph_shapeType="pressed">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/password"
             android:hint="Password"
-            android:textColor="@color/text_color"
-            android:textColorHint="#b9b9ba"
             android:paddingStart="20dp"
             android:backgroundTint="@android:color/transparent"
             android:drawableLeft="@drawable/lock"
@@ -67,15 +52,13 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:id="@+id/login"
-        app:neumorph_shadowColorLight="@color/light"
-        app:neumorph_shadowColorDark="@color/dark"
         android:text="Login"
-        android:textColor="#b9b9ba"
         android:gravity="center"
         android:textSize="25dp"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        style="@style/Widget.Neumorph.Button"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="70dp"
@@ -98,7 +81,8 @@
             android:layout_marginTop="-20dp"
             android:layout_marginStart="10dp"
             android:textStyle="bold"
-            android:elevation="100dp"/>
+            android:elevation="100dp"
+            style="@style/Widget.Neumorph.TextView"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="3dp"
@@ -110,37 +94,35 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="-10dp">
         <soup.neumorphism.NeumorphButton
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/signup"
-            app:neumorph_shadowColorLight="@color/light"
-            app:neumorph_shadowColorDark="@color/dark"
             android:layout_gravity="center"
             android:drawableLeft="@drawable/signup"
             android:padding="25dp"
-            app:neumorph_shapeType="pressed"/>
+            style="@style/Widget.Neumorph.Button"/>
+
         <soup.neumorphism.NeumorphButton
+            android:id="@+id/google"
+            style="@style/Widget.Neumorph.Button"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:neumorph_shadowColorLight="@color/light"
-            app:neumorph_shadowColorDark="@color/dark"
             android:layout_gravity="center"
+            android:layout_marginStart="50dp"
             android:drawableLeft="@drawable/social"
-            android:padding="25dp"
-            app:neumorph_shapeType="pressed"
-            android:layout_marginStart="50dp"/>
+            android:onClick="buttonGoogleSignIn"
+            android:padding="25dp" />
         <soup.neumorphism.NeumorphButton
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:neumorph_shadowColorLight="@color/light"
-            app:neumorph_shadowColorDark="@color/dark"
             android:layout_gravity="center"
             android:drawableLeft="@drawable/facebook"
             android:padding="25dp"
-            app:neumorph_shapeType="pressed"
-            android:layout_marginStart="45dp"/>
+            android:layout_marginStart="45dp"
+            style="@style/Widget.Neumorph.Button"/>
     </LinearLayout>
 </LinearLayout>

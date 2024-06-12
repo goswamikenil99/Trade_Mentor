@@ -10,29 +10,17 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/blob_scene_haikei"
-        android:scaleType="centerCrop"/>
+        android:src="@drawable/login2"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"/>
 
-    <soup.neumorphism.NeumorphTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_marginTop="-70dp"
-        android:layout_marginEnd="10dp"
-        android:elevation="100dp"
-        android:text="Sign-up.."
-        android:textSize="50dp"
-        app:neumorph_shadowColorDark="@color/dark"
-        app:neumorph_shadowColorLight="@color/light"
-        android:textStyle="bold"
-        android:textColor="@color/text_color2" />
     <soup.neumorphism.NeumorphCardView
         android:layout_width="400dp"
         android:layout_height="80dp"
-        app:neumorph_shadowColorLight="#242425"
-        app:neumorph_shadowColorDark="#151518"
+        app:neumorph_shadowColorLight="@color/light"
+        app:neumorph_shadowColorDark="@color/dark"
         app:neumorph_shapeType="pressed"
-        android:layout_marginTop="60dp">
+        android:layout_marginTop="40dp">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -48,13 +36,14 @@
     <soup.neumorphism.NeumorphCardView
         android:layout_width="400dp"
         android:layout_height="80dp"
-        app:neumorph_shadowColorLight="#242425"
-        app:neumorph_shadowColorDark="#151518"
+        app:neumorph_shadowColorLight="@color/light"
+        app:neumorph_shadowColorDark="@color/dark"
         app:neumorph_shapeType="pressed">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/password"
+            android:inputType="textPassword"
             android:hint="Password"
             android:textColor="@color/text_color"
             android:textColorHint="#b9b9ba"
@@ -66,13 +55,14 @@
     <soup.neumorphism.NeumorphCardView
         android:layout_width="400dp"
         android:layout_height="80dp"
-        app:neumorph_shadowColorLight="#242425"
-        app:neumorph_shadowColorDark="#151518"
+        app:neumorph_shadowColorLight="@color/light"
+        app:neumorph_shadowColorDark="@color/dark"
         app:neumorph_shapeType="pressed">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/mobile_number"
+            android:inputType="phone"
             android:hint="Mobile"
             android:textColor="@color/text_color"
             android:textColorHint="#b9b9ba"
@@ -85,15 +75,13 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:id="@+id/signup"
-        app:neumorph_shadowColorLight="@color/light"
-        app:neumorph_shadowColorDark="@color/dark"
         android:text="Sign-Up"
-        android:textColor="#b9b9ba"
         android:gravity="center"
         android:textSize="25dp"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        style="@style/Widget.Neumorph.Button"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="30dp"
@@ -110,7 +98,7 @@
             android:text="Use Other Method"
             app:neumorph_shadowColorDark="@color/dark"
             app:neumorph_shadowColorLight="@color/light"
-            android:textColor="@color/text_color2"
+            style="@style/Widget.Neumorph.TextView"
             android:layout_gravity="center"
             android:textSize="20dp"
             android:layout_marginTop="-5dp"
@@ -133,22 +121,18 @@
         <soup.neumorphism.NeumorphButton
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:neumorph_shadowColorLight="@color/light"
-            app:neumorph_shadowColorDark="@color/dark"
             android:layout_gravity="center"
             android:drawableLeft="@drawable/social"
             android:padding="25dp"
-            app:neumorph_shapeType="pressed"
-            android:layout_marginStart="60dp" />
+            android:layout_marginStart="60dp"
+            style="@style/Widget.Neumorph.Button"/>
         <soup.neumorphism.NeumorphButton
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:neumorph_shadowColorLight="@color/light"
-            app:neumorph_shadowColorDark="@color/dark"
             android:layout_gravity="center"
             android:drawableLeft="@drawable/facebook"
             android:padding="25dp"
-            app:neumorph_shapeType="pressed"
-            android:layout_marginStart="80dp"/>
+            android:layout_marginStart="80dp"
+            style="@style/Widget.Neumorph.Button"/>
     </LinearLayout>
 </LinearLayout>

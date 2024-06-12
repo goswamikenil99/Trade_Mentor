@@ -46,6 +46,7 @@
                 <soup.neumorphism.NeumorphButton
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/wallet"
                     style="@style/shadow"
                     android:drawableStart="@drawable/wallet"
                     android:padding="25dp"/>
@@ -65,8 +66,8 @@
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="280dp"
                 android:layout_height="70dp"
-                app:neumorph_shadowColorLight="#242425"
-                app:neumorph_shadowColorDark="#151518"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shapeType="pressed">
                 <EditText
                     android:layout_width="match_parent"
@@ -83,8 +84,8 @@
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="280dp"
                 android:layout_height="70dp"
-                app:neumorph_shadowColorLight="#242425"
-                app:neumorph_shadowColorDark="#151518"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shapeType="pressed"
                 android:layout_marginTop="-10dp">
 
@@ -102,8 +103,8 @@
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="280dp"
                 android:layout_height="70dp"
-                app:neumorph_shadowColorLight="#242425"
-                app:neumorph_shadowColorDark="#151518"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shapeType="pressed"
                 android:layout_marginTop="-10dp">
 
@@ -121,8 +122,8 @@
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="280dp"
                 android:layout_height="70dp"
-                app:neumorph_shadowColorLight="#242425"
-                app:neumorph_shadowColorDark="#151518"
+                app:neumorph_shadowColorLight="@color/light"
+                app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shapeType="pressed"
                 android:layout_marginTop="-10dp">
                 <EditText
@@ -145,7 +146,6 @@
         app:neumorph_shadowColorLight="@color/light"
         app:neumorph_shadowColorDark="@color/dark"
         android:text="Edit Profile"
-        android:textColor="#b9b9ba"
         android:gravity="center"
         android:textSize="25dp"
         android:textStyle="bold"

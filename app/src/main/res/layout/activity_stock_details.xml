@@ -14,10 +14,9 @@
     <soup.neumorphism.NeumorphCardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="-10dp"
-        android:layout_marginEnd="-10dp"
+        android:layout_marginHorizontal="10dp"
         app:neumorph_shadowColorDark="@color/dark"
-        app:neumorph_shadowColorLight="@color/text_color2"
+        app:neumorph_shadowColorLight="@color/light"
         app:neumorph_lightSource="rightBottom"
         app:neumorph_shapeAppearance="@style/stock_details"/>
 </LinearLayout>
@@ -30,114 +29,88 @@
 <com.google.android.material.card.MaterialCardView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/background"
-    app:cardElevation="50dp"
-    android:elevation="50dp"
+    android:backgroundTint="@color/dark"
     app:cardCornerRadius="30dp"
-    android:layout_marginHorizontal="5dp"
-    app:strokeColor="@color/black">
+    android:layout_marginHorizontal="10dp"
+    app:strokeColor="#4CAF50">
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mahindra"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/bank_name"
         android:textColor="@color/white"
         android:layout_gravity="start|center"
-        android:drawableStart="@drawable/mahi"
         android:layout_marginStart="20dp"
         android:drawablePadding="10dp"
-        android:textSize="20dp"/>
+        android:textSize="15dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="730.78"
+        android:id="@+id/lp"
         android:layout_gravity="right"
         android:layout_marginEnd="70dp"
         android:textColor="@color/white"
         android:textSize="25dp"
         android:layout_marginTop="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:inputType="number"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="47.3%"
+        android:id="@+id/chp"
         android:layout_gravity="right"
         android:layout_marginEnd="70dp"
         android:textColor="@color/white"
         android:textSize="25dp"
         android:layout_marginTop="60dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:inputType="number"/>
 </com.google.android.material.card.MaterialCardView>
 </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp"
-        android:gravity="center">
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:backgroundTint="@color/text_color2"
-            android:elevation="30dp"
-            android:text="1D"
-            android:textSize="17dp"
-            android:textColor="@color/black"
-            android:layout_marginStart="15dp"/>
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:backgroundTint="@color/text_color2"
-            android:elevation="30dp"
-            android:text="1W"
-            android:textSize="16dp"
-            android:textColor="@color/black"
-            android:layout_marginStart="15dp"/>
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:backgroundTint="@color/text_color2"
-            android:elevation="30dp"
-            android:text="1M"
-            android:textSize="16dp"
-            android:textColor="@color/black"
-            android:layout_marginStart="15dp"/>
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:backgroundTint="@color/text_color2"
-            android:elevation="30dp"
-            android:text="1Y"
-            android:textSize="17dp"
-            android:textColor="@color/black"
-            android:layout_marginStart="15dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:gravity="center">
+    <soup.neumorphism.NeumorphButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/plus"
+        style="@style/Widget.Neumorph.Button"
+        android:drawableStart="@drawable/baseline_add_24" />
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/dark"
+        app:strokeColor="#4CAF50">
+        <soup.neumorphism.NeumorphTextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/stock_number"
+            android:text="0"
+            style="@style/Widget.Neumorph.TextView"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </com.google.android.material.card.MaterialCardView>
 
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="15dp"
-            android:backgroundTint="@color/text_color2"
-            android:elevation="30dp"
-            android:text="ALL"
-            android:textColor="@color/black"
-            android:textSize="13dp"
-            tools:ignore="TextSizeCheck" />
-    </LinearLayout>
-    <soup.neumorphism.NeumorphImageView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        app:neumorph_shadowColorLight="@color/light"
-        app:neumorph_shadowColorDark="@color/dark"
-        android:layout_marginTop="10dp"
-        android:layout_marginHorizontal="10dp"
-        android:src="@drawable/trend_7002202_1280__1_"
-        android:scaleType="fitCenter"
-        android:padding="20dp" />
+    <soup.neumorphism.NeumorphButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/minus"
+        style="@style/Widget.Neumorph.Button"
+        android:text="-"
+        android:textSize="50dp" />
+</LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginTop="-10dp">
         <soup.neumorphism.NeumorphButton
+            android:id="@+id/buy"
             android:layout_width="150dp"
             android:layout_height="100dp"
             app:neumorph_shadowColorLight="@color/light"
@@ -145,15 +118,32 @@
             android:text="BUY"
             android:textColor="@color/white"
             android:gravity="center"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            style="@style/Widget.Neumorph.Button"/>
         <soup.neumorphism.NeumorphButton
             android:layout_width="150dp"
             android:layout_height="100dp"
+            android:id="@+id/sell"
             app:neumorph_shadowColorLight="@color/light"
             app:neumorph_shadowColorDark="@color/dark"
             android:text="SELL"
             android:textColor="@color/white"
             android:gravity="center"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            style="@style/Widget.Neumorph.Button"/>
     </LinearLayout>
+    <soup.neumorphism.NeumorphButton
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/history"
+        android:text="History"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"/>
 </LinearLayout>

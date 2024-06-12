@@ -6,8 +6,11 @@ import androidx.appcompat.app.AppCompatDelegate;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 public class splash_screen extends AppCompatActivity {
 
@@ -15,11 +18,19 @@ public class splash_screen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+        VideoView videoView = findViewById(R.id.videoView);
+
+        // Define the URI for the video file
+        Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.splash2);
+        // Set the video URI to the VideoView
+        videoView.setVideoURI(videoUri);
+        // Start playing the video
+        videoView.start();
         if(isDarkModeOn()){
             changeToLightMode();
         }
         Handler handler=new Handler();
-        handler.postDelayed(rn,3000);
+        handler.postDelayed(rn,6000);
     }
     private Runnable rn=new Runnable() {
         @Override

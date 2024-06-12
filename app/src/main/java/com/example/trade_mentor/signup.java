@@ -18,30 +18,35 @@ public class signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
         NeumorphButton signup=findViewById(R.id.signup);
-        EditText email=findViewById(R.id.email);
-        EditText password=findViewById(R.id.password);
-        EditText mobile_number=findViewById(R.id.mobile_number);
+        EditText editTextemail=findViewById(R.id.email);
+        EditText editTextpassword=findViewById(R.id.password);
+        EditText editTextPhone=findViewById(R.id.mobile_number);
         dbhelper helper=new dbhelper(getApplicationContext());
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(TextUtils.isEmpty(email.getText().toString())){
-                    email.setError("Email is compulsary");
+                String phoneNumber = editTextPhone.getText().toString().trim();
+                String email = editTextemail.getText().toString().trim();
+                String password = editTextpassword.getText().toString().trim();
+                if(TextUtils.isEmpty(email)){
+                    editTextemail.setError("Email is compulsary");
                     return;
                 }
-                if(TextUtils.isEmpty(password.getText().toString())){
-                    password.setError("password is compulsary");
+                if(TextUtils.isEmpty(password)){
+                    editTextpassword.setError("password is compulsary");
                     return;
                 }
-                if(TextUtils.isEmpty(mobile_number.getText().toString())){
-                    mobile_number.setError("mobile number is compulsary");
+                if (TextUtils.isEmpty(phoneNumber) || phoneNumber.length() != 10) {
+                    editTextPhone.setError("Enter a valid 10 digit phone number");
+                    editTextPhone.requestFocus();
                     return;
                 }
-                    helper.add_user_info(email.getText().toString(),password.getText().toString(),mobile_number.getText().toString());
-                    Toast.makeText(getApplicationContext(),"Sign-up Successfully",Toast.LENGTH_SHORT).show();
-                    Intent intent= new Intent(getApplicationContext(),home.class);
-                    startActivity(intent);
-                    finish();
+                Intent intent = new Intent(getApplicationContext(), otp_verification.class);
+                intent.putExtra("Mobile_Number", phoneNumber);
+                intent.putExtra("email", email);
+                intent.putExtra("password", password);
+                startActivity(intent);
+                finish();
             }
         });
     }

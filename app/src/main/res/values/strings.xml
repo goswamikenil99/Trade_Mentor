@@ -1,3 +1,176 @@
 <resources>
     <string name="app_name">Trade_Mentor</string>
+    <string name="b_ch1">Introduction</string>
+    <string name="b_ch1_desc"><b><u>The share market</u></b> is a platform where buyers and sellers come together to trade on publicly listed shares during specific hours of the day. People often use the terms ‘share market’ and ‘stock market’ interchangeably. However, the key difference between the two lies in the fact that while the former is used to trade only shares, the latter allows you to trade various financial securities such as bonds, derivatives, forex etc.\n\nThe principal stock exchanges in India are the National Stock Exchange (NSE) and the Bombay Stock Exchange (BSE).</string>
+    <string name="b_ch1_point_market">To understand how the stock market works in India, the next thing is to learn about primary and secondary markets\n\n<b><u>1) Primary Markets</u></b>\n         The Primary stock market provides an opportunity for issuers of stocks (companies) to raise capital to meet their investment requirements and to discharge liabilities.\nA company lists its shares in the primary market through an Initial Public Offering or IPO. Through an IPO, a company sells its shares for the first time to the public. An IPO opens for a particular period. Within this window, investors can bid for the shares and buy them at the issue price announced by the company.\nOnce the subscription period is over, the shares are allotted to the bidders. The companies are then called public because they have given out their shares to the common public.\nFor this, companies need to pay a fee to the stock exchanges. They are also required to provide all important details of the company’s financial information, such as quarterly/annual reports, balance sheets, and income statements, along with information on new projects or future objectives to the stock markets.\n\n<b><u>2) Secondary Market</u></b>\n        The last step involves listing the company on the stock market, which means that the stock issued during the IPO can now freely be bought and sold. The Secondary stock market is where shares of a company are traded after being initially offered to the public in the primary market.</string>
+    <string name="b_ch1_point_Trading_in_the_Stock_Market">Once listed on the stock exchanges, the stocks issued by companies can be traded in the secondary market. This buying and selling of stocks listed on the exchanges are done by stockbrokers / brokerage firms that act as the middleman between investors and the stock exchange.\n\nYour broker passes on your buy order for shares to the stock exchange. The stock exchange searches for a sell order for the same share.\n\nOnce a seller and a buyer are found, a price is agreed to finalize the transaction. Post that, the stock exchange communicates to your broker that your order has been confirmed.\n\nThis message is then passed on to you by the broker. All this happens in real-time and in seconds.\n\n\nMeanwhile, the stock exchange also confirms the details of the buyers and the sellers of shares to ensure the parties don’t default.\n\nIt then facilitates the actual transfer of ownership of shares from sellers to buyers. This process is called the settlement cycle.\n\nEarlier, it used to take weeks to settle stock trades. But now, this has been brought down to T+2 days.\n\n\n<b><u>For example,</u></b>\n      If you buy a stock today, the credit is given by the end of the day.\nThe stock exchange also ensures that the trade of stocks is honored during the settlement.\nIf the settlement cycle doesn’t happen in T+2 days, the sanctity of the stock market is lost because it means trades may not be upheld.</string>
+
+
+
+    <string name="b_ch2">Stock Market Basics</string>
+    <string name="b_ch2_desc"><b><u>All companies</u></b> need money to run their business. Sometimes the profit acquired from selling goods or services is not sufficient to meet the working capital requirements. And so, companies invite normal people like you and me to put some money into their company so that they can run it efficiently and in return, investors get a share of whatever profit they make.\n\nUnderstanding this is the first step towards understanding stock market basics. Let’s learn about this in detail.</string>
+    <string name="b_ch2_point_What_are_Stocks">Stocks are simply an investment method to build wealth. When you invest in the stock of a company, it means you own a share in the company that issued the stock.\n\nStock investment is a way to invest in some of the most successful companies.\n\nAlso, there are different types of stocks available in the market to invest/trade-in. These stocks are categorized based on the\n\n following criteria:\n• Market capitalization\n• Ownership\n• Fundamentals\n• Price volatility\n• Profit sharing\n• Economic trends</string>
+    <string name="b_ch2_point_Understanding_the_Stock_Market_Basics"><b><u>Understanding the Stock Market Basics - Important Terms</u></b>\n  Here is a list of commonly used terms when talking about the stock market. You can use this as a glossary to look for any time you want to learn.\n\n\n<b><u>Sensex:-</u></b> is a collection of the top 30 stocks listed on the BSE by way of market capitalisation.\n\nSEBI The Securities and Exchange Board of India (Sebi) is the securities market regulator to oversee any fraudulent transactions and activities made by any of the parties: companies, investors, traders, brokers and the like.\n\n<b><u>Demat or dematerialised account:-</u></b>  is a form of an online portfolio that holds a customer’s shares and other securities in an electronic (dematerialised) format.\n\nTrading\tIt is the process of buying or selling shares in a company.\n\n<b><u>A stock index or stock market index:-</u></b> is a statistical source that measures financial market fluctuations. They are performance indicators that indicate the performance of a certain market segment or the market as a whole.\n\nPortfolio\tIt is a collection of a wide range of assets that are owned by investors. A portfolio can also include valuables ranging from gold, stocks, funds, derivatives, property, cash equivalents, bonds, etc.\n\n<b><u>Bull Market:-</u></b> companies tend to generate more revenue, and as the economy grows, consumers are more likely to spend.\n\nBear Market\tBear markets refer to a slowdown in the economy, which may make consumers less likely to spend and, in turn, lower the GDP.\n\n<b><u>Nifty50:-</u></b> is a collection of the top 50 companies listed on the National Stock Exchange (NSE).\n\n<b><u>A stock broker:-</u></b> is an investment advisor who executes transactions such as the buying and selling of stocks on behalf of their clients.\n\n <b><u>Bid Price:-</u></b>  The bid price is the highest price a buyer will pay to buy a specified number of shares of a stock at any given time.\n\n <b><u>:-</u></b> \tThe ask price in the stock market refers to the lowest price at which a seller will sell the stock.\n\n <b><u>IPO\tInitial Public Offer (IPO) :-</u></b> is the selling of securities to the public in the primary market. It is the largest source of funds with long or indefinite maturity for the company.\n\n <b><u>Equity:-</u></b>\t Equity is the value that would be received by the shareholder if all of the company’s assets were liquidated and all of the company\'s debts were paid off.\n\n <b><u>Dividend:-</u></b>\t A dividend refers to cash or reward that a company provides to its shareholders. It can be issued in various forms, such as cash payment, stocks or any other form.\n\n <b><u>BSE\tBombay Stock Exchange (BSE):- </u></b> is the largest and first securities exchange market in India. It was established in 1875 as the Native Share and Stock Brokers\' Association. It is also the first stock exchange in India and provides an equities trading platform for small-and-medium enterprises.\n\n <b><u>NSE\tNational Stock Exchange:-</u></b> was the first to implement screen-based or electronic trading in India. It is the fourth largest stock exchange in the world in terms of equity trading volume, as per the World Federation of Exchanges (WFE).\n\n <b><u>Call  Put Option:- </u></b>\tThe call option gives the investor the right to purchase the underlying security, while the put option gives the investor the right to sell shares of the underlying security. Both opinions let the investors profit from movements in a stock\'s price.\n\n\n <b><u>Types of Stock Market\tThere are 2 types of stock markets:-</u></b>\n\n <b><u>• Primary Market:-</u></b> It creates securities and acts as a platform where firms float their new stock options and bonds for the general public to acquire.\n\n <b><u>• Secondary Market:-</u></b> Here, investors trade in securities without involving the companies who issued them in the first place with the help of brokers.\n\nAsk and Close\tThe term ‘ask’ in the stock market refers to the lowest price at which a seller will sell the stock. ‘Closing price’ generally refers to the last price at which a stock trades during a regular trading session.\n\nMoving Average\tIt is a stock indicator commonly used for technical analysis to smoothen the price data by creating a constantly updated average price. A rising moving average indicates that the security is in an uptrend, while a declining moving average indicates a downtrend.</string>
+
+
+
+    <string name="b_ch3">Types of Shares</string>
+    <string name="b_ch3_desc">A share represents a unit of equity ownership in a company. Shareholders are entitled to any profits that the company may earn in the form of dividends. They are also the bearers of any losses that the company may face. In simple words, if you are a shareholder of a company, you hold a percentage of ownership of the issuing company in proportion to the shares you have bought, often managed through a share market app.</string>
+    <string name="b_ch3_point_share_types">Shares can be further categorized into two types. These are:\n
+        \t<b><u>->Equity shares</u></b>\n
+        \t<b><u>->Preference shares</u></b>\n
+    \n
+        <b><u>Equity Shares Meaning</u></b>\n\n
+    These are also known as ordinary shares and comprise the bulk of the shares being issued by a particular company. Equity shares are transferable and are traded actively by investors in stock markets. As an equity shareholder, you are not only entitled to voting rights on company issues but also have the right to receive dividends.\n\n
+    These dividends, however, are not fixed. Equity shareholders also partake in any losses faced by the company, limited to the amount they had invested. Equity shares can be further divided based on:\n\n
+    \t->Share capital\n
+    \t->Definition\n
+    \t->Returns\n
+    \n
+    <b>Classification Of Equity Shares based on Share Capital</b>\n\n
+    Here is a look at the classification of equity shares based on share capital:\n\n
+    \tAuthorized Share Capital: Every company, in its Memorandum of Associations, requires to prescribe the maximum amount of capital that can be raised by issuing equity shares. The limit, however, can be increased by paying additional fees and after the completion of certain legal procedures.\n\n
+    \tIssued Share Capital: This implies the specified portion of the company’s capital, which has been offered to investors through the issuance of equity shares. For example, if the nominal value of one stock is Rs 200 and the company issues 20,000 equity shares, the issued share capital will be Rs 40 lakh.\n\n
+    \tSubscribed Share Capital: The portion of the issued capital, which has been subscribed by investors is known as subscribed share capital.\n\n
+    \tPaid-Up Capital: The amount of money paid by investors for holding the company’s stocks is known as paid-up capital. As investors pay the entire amount at once, subscribed and paid-up capital refer to the same amount.\n
+    \n
+    <b>Classification Of Equity Shares based on Definition</b>\n\n
+    Here is a look at the equity share classification based on the definition:\n\n
+    \tBonus Shares: Bonus share definition implies those additional stocks which are issued to existing shareholders free-of-cost, or as a bonus.\n\n
+    \tRights Shares: Right shares meaning is that a company can provide new shares to its existing shareholders - at a particular price and within a specific period - before being offered for trading in stock markets.\n\n
+    \tSweat Equity Shares: If as an employee of the company, you have made a significant contribution, the company can reward you by issuing sweat equity shares.\n\n
+    \tVoting And Non-Voting Shares: Although the majority of shares carry voting rights, the company can make an exception and issue differential or zero voting rights to shareholders.\n
+    \n
+    <b>Classification Of Equity Shares based on Returns</b>\n\n
+    Based on returns, here is a look at the types of shares:\n\n
+    \tDividend Shares: A company can choose to pay dividends in the form of issuing new shares, on a pro-rata basis.\n\n
+    \tGrowth Shares: These types of shares are associated with companies that have extraordinary growth rates. While such companies might not provide dividends, the value of their stocks increases rapidly, thereby providing capital gains to investors.\n\n
+    \tValue Shares: These types of shares are traded in stock markets at prices lower than their intrinsic value. Investors can expect the prices to appreciate over some time, thus providing them with a better share price.\n
+    \n
+    <b>Preference Shares</b>\n\n
+    Preferential shareholders receive preference in receiving profits of a company as compared to ordinary shareholders. Also, in the event of liquidation of a particular company, the preferential shareholders are paid off before ordinary shareholders. Here are the different types of shares in this category:\n\n
+    \tCumulative And Non-Cumulative Preference Shares: In the case of cumulative preference shares, if a particular company doesn’t declare an annual dividend, the benefit is carried forward to the next financial year. Non-cumulative preference shares don\'t provide for receiving outstanding dividends benefits.\n\n
+    \tParticipating/Non-Participating Preference Share: Participating preference shares allow shareholders to receive surplus profits, after payment of dividends by the company. This is over and above the receipt of dividends. Non-participating preference shares carry no such benefits, apart from the regular receipt of dividends.\n\n
+    \tConvertible/Non-Convertible Preference Shares: Convertible preference shares can be converted into equity shares, after meeting the requisite stipulations by the company’s Article of Association (AoA), while non-convertible preference shares carry no such benefits.\n\n
+    \tRedeemable/Irredeemable Preference Share: A company can repurchase or claim redeemable preference share at a fixed price and time. These types of shares are sans any maturity date. Irredeemable preference shares, on the other hand, have no such conditions.</string>
+    <string name="b_ch3_point_Features_of_owning_Equity">
+Features of owning Equity\n\n
+        <b><u>1. Redeeming capital:-</u></b> If you have purchased equity shares from a company, then only you can claim the company’s value in case of liquidation. Another way to get a return on investment on equities is dividends, and trade the share when its value moves above your purchase price.\n\n
+        <b><u>2. Voting rights:-</u></b> If you purchase equity shares from a company, you become a partial owner with the right to vote at company meetings. Most people buy equities of publicly listed companies with a highly fragmented shareholder base, so it is usually left to the Board of Directors to handle all this as they are the appointed representatives of the company.\n\n
+        <b><u>3. Limited liability:-</u></b> Ordinary shareholders of a company are not impacted directly by the losses of a company. The only impact they will feel is in the depreciation of the value of the shares they hold, which would impact their net worth and their profit-turning prospects.\n\n\n
+Benefits of purchasing Equity\n\n
+1. High risk, high reward: Equity shares can give high returns to the shareholders if the risk pays off. Investors enjoy the profits through dividend earnings as well as the appreciation of the company.\n\n
+2. Easy and efficient: You can invest in equity shares at any company through a stockbroker or financial planner. All you need is a Demat account to trade.\n\n
+3. Diversity: You can invest in equity shares across many thematic areas, from trading based on the capitalization of a company, to equities of companies in a particular sector. Thus, equities lend to greater diversity for better and more stable returns.\n\n\n
+Disadvantages of owning Equity\n\n
+- High risk includes high losses too: The possibility to earn through high returns is present, but the risk of loss is also high.\n\n
+- Linked to performance: Since there is a link between the equity shares and the market, their performance can fluctuate greatly and often take a turn for the worse.\n\n
+- Inflation risk: If a country’s economy experiences inflation, the company’s worth can fall which in turn will affect its shares and not provide the returns that were expected and impact the profits that were to be generated.\n\nnnn
+- Risk of Liquidity: When a company is unable to repay its debts, it may opt for liquidation which requires the shareholders to sell their shares at a price lower than the market price.\n\n
+- Social and Political fluctuation: The social and political climate of a country and the goals associated with the same can impact the growth of the company. This, in turn, impacts the profits generated and therefore the benefits that a shareholder could have received.\n\n\n
+Types of Equity\n\n
+        <b><u>1. Shares:-\n</u></b>
+ This is the simplest way of buying shares in a company that you have faith complete in The shares of the company will appreciate within the time frame in which you want a return.\n
+        <b><u>2. Equity-Mutual fund investments:-\n</u></b>
+ This is when several investors collect funds and at least 60% of those are invested in equity shares of various companies. Mutual funds can be further divided into the following categories:\n\n
+- Large-cap equity funds: The fund invests only in large companies with stable returns.\n\n
+- Mid-cap: The fund’s investment thesis revolves around investing in companies of smaller size but with higher potential for growth. This is a balance between risk and potential reward.\n\n
+- Small-cap: investments are made in small and volatile companies with a high risk to reward ratio.\n\n
+- Multi-cap funds: These funds invest in companies of all sizes across a variety of sectors.\n\n
+Mutual Funds are the way in which most people invest, as they are run by professional investors who take investment decisions for you.\n\n
+        <b><u>3. Alternative Investment Funds:-\n</u></b>
+ In this, you invest in equity through various methods wherein each of those options have their investment theses. You have to see not only which one suits your needs, but also which one you can afford to invest in.
+</string>
+
+
+
+    <string name="b_ch4">TBasic of Candlesticks</string>
+    <string name="b_ch4_desc">Candles refer to that information for a specific unit of time. For instance, the chart above is a daily chart; each chart represents one day. And thus, each candle constitutes the open, close, high, and low price for that given day. The horizontal axis at the bottom of the chart can be used to understand which day corresponds to which candle. Below is an image that illustrates how those four pieces of information – the open, low, high, and close for a given period of time – are visualized in the context of a candle:</string>
+    <string name="b_ch4_point_What_are_Candlesticks">
+        <b><u>What are Candlesticks?,</u></b>\n\n
+        Calibrate their own trading with the fluctuations and reversals of larger, more influential participants in the market, often referred to as “Smart Money”, so that traders can identify and participate in significant price moves.\n\n
+
+        <b><u>1. Candlesticks Anatomy:-</u></b>\n\n
+        Just as humans, candlesticks have different body sizes, and when it comes to trading, it’s important to check out the bodies of candlesticks and understand the psychology behind it. that’s what you will learn in this section.\n\n
+
+        <b><u>2. Candlestick patterns:-</u></b>\n\n
+        Candlestick patterns are an integral part of technical analysis, candlestick patterns emerge because human actions and reactions are patterned and constantly repeated. In this section you will learn how to recognize the most important candlestick patterns, the psychology behind its formation, and what do they indicate when they form in the market.\n\n
+
+        <b><u>3. The Market structure:-</u></b>\n\n
+        In this section, you will learn how to identify trending markets, ranging markets, and choppy markets. You will learn how these markets move and how to trade them professionally. You will also learn how to draw support and resistance, and trendlines.\n\n
+
+        <b><u>4. Time frames and top down analysis:-</u></b>\n\n
+        Multiple time frame analysis is very important for you as a price action trader, in this section you will learn how to analyze the market using the top down analysis approach.\n\n
+
+        <b><u>5. Trading strategies and tactics:-</u></b>\n\n
+        In this section you will learn how trade the market using four price action trading strategies:\n\n
+        -> The pin bar strategy
+        -> The engulfing bar strategy
+        -> The inside bar strategy
+        -> The inside bar false breakout strategy
+
+        <b><u>6. Money management:-</u></b>\n\n
+        In this section, you will learn how to create a money management and risk control plan that will allow you to protect your trading capital and become consistently profitable.\n\n
+</string>
+    <string name="b_ch4_point_candlestick_types">
+        Types of Candlesticks:-\n\n
+
+        <b><u>Doji:-</u></b>\n\n
+        This candle has zero or almost zero range between its open and close. Rather than implying potential reversal or the clear dominance of either bears or bulls, these candles suggest indecision or balance between the two forces. Neither buyers nor sellers are fully in control. A doji that occurs in the context of a strong trend implies the weakening of the dominant force that resulted in that trend. A “long-legged doji” has long wicks in both directions, implying strong, balanced pressure from both buyers and sellers.\n\n
+
+        The “dragonfly” and “gravestone” doji imply, respectively, that sellers and buyers controlled the market for most of the trading period, but then the opposite group managed to push price back to the open before the close. While tradition and long-legged dojis are reflective of indecision and stalling, gravestone and dragonfly are generally clearer, stronger indicators that a force is stepping in to push the market in the direction of the wick and away from the body. In this respect, gravestone and dragonfly dojis are similar to hammer and hanging man patterns, which are discussed later in this guide.\n\n
+
+        <b><u>Hammer:-</u></b>\n\n
+        A “hammer” is a candlestick with a small body (a small range from open to close), a long wick protruding below the body, and little to no wick above. In this respect it is very similar to a dragonfly doji; the primary difference is that a dragonfly doji will have essentially no body, meaning the open and close prices are equal. When a hammer appears at the bottom of a downtrend, its long wick implies an unsuccessful effort by bears to push price down, and a corresponding effort by bulls to step in and push price back up quickly before the period closed. As such, a hammer candlestick in the context of a downtrend suggests the potential exhaustion of the downtrend and the onset of a bullish reversal. The “neckline,” often determined by the high of the previous bar, is the level that price must hit on the next candlestick in order to confirm the hammer’s reversal signal.\n\n
+
+        <b><u>Hanging Man:-</u></b>\n\n
+        The “hanging man” is the name given to a candle that is identical in shape to the hammer; the difference is that while hammers occur in downtrends, the hanging man pattern occurs in uptrends. In this case, the wick extends down, contrary to the uptrend, and suggests the emergence of bearish demand capable of pushing the price down. It is often the first sign that the uptrend is exhausting, and bears are stepping in to create a reversal. For the reversal signal to be confirmed, the consequent bearish bar should reach the “neckline” established by the open of the bullish bar on the other side of the hanging man.\n\n
+
+        <b><u>Shooting Star:-</u></b>\n\n
+        This candlestick is simply the inversion of the hanging man: it has a small body and a long wick protruding above it, with little to no wick below. The “shooting star” occurs at the height of an uptrend; its long wick implies that resistance to further bullish movement has been encountered above the close, and a bearish reversal may be imminent. In this case, a strong black candle or a price at the level of the previous bar’s open can act as confirmation or an entry point. Often, shooting stars are further characterized by a gap between the previous bar’s close and the relatively higher open of the shooting star.\n\n
+</string>
+
+
+
+<string name="b_ch5">Candlesticks Patterns</string>
+    <string name="b_ch5_desc">
+            <b><u>The “morning star”</u></b> is the inverse of the evening star, a 3-bar pattern in which the “star” is a small-bodied candle, typically opening at the close of the previous candle or opening a gap below it, indicating that a trend is transitioning from bearish to bullish. The morning star constitutes a potential bottom to the preceding bearish leg, and functions therefore as a buy signal. The three candles are as follows:\n\n
+            <b>1. A long bearish candle</b>\n\n
+            <b>2. A small-bodied bullish or bearish candle or a doji</b> that opens at or below the close of the previous candle\n\n
+            <b>3. A white bullish candle</b> that opens at or above the high point of the previous candle and closes at or above the center of the first candle.\n\n
+            While an evening star pattern after an uptrend signals a reversal, the opposite of a morning star pattern in a downtrend can also signal reversal, and a change in the balance of power between bears and bulls.\n\n
+    </string>
+    <string name="b_ch5_point_1">
+            <b>Bullish Engulfing:</b> In this pattern, the real body of a bearish candle (the range from open to close) is encompassed by the body of a consequent bullish candle. This indicates an increase in activity from both bears and bulls, and a shift of overall market sentiment towards bullishness. Like with all the patterns we’ve discussed thus far, this pattern should be viewed in consideration of the trend at the time: if a bullish engulfing pattern appears in a downtrend, it can suggest a shift price trend and the onset of buying demand becoming the prevailing force that will ultimately push price higher in the context of the timeframe being viewed.\n\n
+            <b>Bearish Engulfing:</b> This pattern is the converse of a bullish engulfing pattern, wherein the body of a bullish candle is encompassed by the body of a consequent bullish candle. This indicates an increase in activity from both bears and bulls, and a shift of market sentiment towards bearishness. As we have observed with other patterns, the context of the trend is critical; a bearish engulfing pattern is most indicative of the onset of a bearish price move when it appears in the midst of an uptrend.\n\n
+            <b>Harami/Inside Bar:</b> This pattern is a two-candlestick pattern in which the first candlestick vertically encompasses the one that follows it. This signal is interpreted in two ways:\n\n
+            <b>1. An indication that an increase in volatility is imminent.</b> This affords traders the opportunity to create trades that speculate not so much on direction, but rather on an increase in volatility on a breakout in any specific direction.\n\n
+            <b>2. In the context of a trend, a harami/inside bar can be indicative of exhaustion and the onset of a reversal.</b> In this manner, it is similar to long wick patterns and evening star/morning star patterns examined earlier in this guide.\n\n
+    </string>
+    <string name="b_ch5_point_2">
+            <b>Kicker:</b> A kicker signal, also known as a professional gap, occurs when the following conditions are met:\n\n
+            <b>1. Price is moving in a trend.</b>\n\n
+            <b>2. Suddenly, a gap appears in the chart.</b> A gap is defined as when the open price of one candle is not equal to the close price of the candle that precedes it; there is a gap in the price movement. The gap is in the opposite direction of the trend. For instance, imagine that price closed at 10 after rallying over a number of days from 2. The next day, the price opens at 8. In this instance, we have a gap down, or a bearish kicker. Conversely, if the price fell from 10 to 3 and then opened the next day at 5, it would signal a bullish kicker, a bullish sign for traders.\n\n
+            A kicker signal can be a very powerful sign that a trend is reversing. It is often interpreted as a sign that professional investors have quickly realized that a trend is over, and are looking to get out immediately. As such, this signal often precipitates a rapid reversal of the prior trend.\n\n
+
+            <b>Piercing Line:</b> A bullish signal that occurs in the context of a downtrend when, after a long bearish candle, a bullish candle opens at a new low and then closes at a level at least halfway up the body of the previous bar; this signal is reliable as a two-bar indicator of a trend reversal in proportion to the height of the second bullish bar. As the strength of the reversal signal is related to the size of the second candle, this pattern is similar to the Tweezer pattern, which is discussed later in this guide.\n\n
+
+            <b>Dark Cloud Cover:</b> This two-candle bearish reversal pattern is the bearish converse of the piercing line, occurring at the top of a bullish trend. The first bullish candle is followed by a bearish candle that opens at a new high and then closes at least halfway down the body of the bar preceding it. The strength of the reversal signal is proportionate to the length of the second candle. This pattern is clearly conceptually and mathematically similar to the Piercing Line and Tweezer patterns.\n\n
+    </string>
+
+
+
+    <string name="b_ch6">Support and Resistance</string>
+    <string name="b_ch6_desc">
+            <b>What Is Support?</b>\n
+            Support is the level where the price finds it difficult to fall below until, eventually, it fails to do so and bounces back up. It’s simply many traders making trading decisions at that level.\n\n
+
+            <b>What Is Resistance?</b>\n
+            Resistance is the level where the price finds it hard to break through to the upside and is pushed back down. It acts as a ceiling, limiting further upward price movement.\n\n
+    </string>
+    <string name="b_ch6_point_1">
+            <b>Checkmates</b> occur when price becomes locked in a narrow trading range preceding a reversal in direction. In a typical bearish checkmate, an uptrend meets a resistance level that is tested and then rejected due to consequent pressure from holding the level. In these cases, the checkmate begins as the first candle in the range reaches a high that the pressure from bulls is unable to surpass. Price remains deadlocked in a tight trading range before the range is broken with a long bearish candlestick, indicating that the reversal has begun. As an entry signal, this pattern requires confirmation from one or two strong bearish bars.\n\n
+            In a bullish checkmate, the opposite occurs, typically at a support rather than resistance level. The long lower wick of the first pinbar in the red box establishes a low that the bears cannot achieve; price is trapped thereafter in a narrow trading range, the checkmate, until bulls successfully reverse the trend. The tall white bar immediately after the box confirms the bullish reversal.\n\n
+            In the patterns that have been presented thus far, a simple concept should be emerging: when a long wick appears in the context of a trend, it often signals a potential reversal of that trend.\n\n
+    </string>
 </resources>

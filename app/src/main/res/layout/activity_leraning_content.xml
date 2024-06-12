@@ -17,16 +17,16 @@
             android:layout_marginStart="-10dp"
             android:layout_marginEnd="-10dp"
             app:neumorph_shadowColorDark="@color/dark"
-            app:neumorph_shadowColorLight="@color/text_color2"
+            app:neumorph_shadowColorLight="@color/light"
             app:neumorph_lightSource="rightBottom"
-            app:neumorph_shapeAppearance="@style/stock_details">
-            <TextView
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance">
+            <soup.neumorphism.NeumorphTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Learn Trading..."
-                android:textColor="@color/white"
                 android:layout_gravity="center"
-                android:textSize="30dp"/>
+                android:textSize="30dp"
+                style="@style/Widget.Neumorph.TextView"/>
         </soup.neumorphism.NeumorphCardView>
     </LinearLayout>
     <HorizontalScrollView
@@ -41,21 +41,21 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/all_cor"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="@color/background"
-                android:drawableBottom="@drawable/learning_view"
                 android:text="All Courses"
-                android:textColor="@color/white"
                 android:textSize="15dp"
-                tools:ignore="TextSizeCheck" />
+                tools:ignore="TextSizeCheck"
+                android:textColor="@color/white"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/beginer"
                 android:layout_marginStart="-20dp"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="@color/background"
-                android:drawableBottom="@drawable/learning_view"
                 android:text="Beginner"
                 android:textColor="@color/white"
                 android:textSize="15dp"
@@ -64,10 +64,10 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/intermidiate"
                 android:layout_marginStart="-20dp"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="@color/background"
-                android:drawableBottom="@drawable/learning_view"
                 android:text="Intermediate"
                 android:textColor="@color/white"
                 android:textSize="15dp"
@@ -76,10 +76,10 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/advance"
                 android:layout_marginStart="-20dp"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="@color/background"
-                android:drawableBottom="@drawable/learning_view"
                 android:text="Expert"
                 android:textColor="@color/white"
                 android:textSize="15dp"
@@ -97,7 +97,6 @@
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/transparent"
             android:hint="Search Lessons"
-            android:textColorHint="#b9b9ba"
             android:padding="20dp"
             android:drawableStart="@drawable/search"
             android:drawablePadding="20dp"/>
@@ -117,37 +116,1088 @@
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:id="@+id/m1_ch1"
                 android:layout_marginHorizontal="10dp"
                 app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shadowColorLight="@color/light">
-
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/l1" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Beginner"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-1"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:text="Explore"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"/>
             </soup.neumorphism.NeumorphCardView>
 
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:id="@+id/m1_ch2"
                 android:layout_marginHorizontal="10dp"
                 app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shadowColorLight="@color/light">
-
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch2" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Beginner"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-2"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
             </soup.neumorphism.NeumorphCardView>
 
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:id="@+id/m1_ch3"
                 android:layout_marginHorizontal="10dp"
                 app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shadowColorLight="@color/light">
-
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m3_ch25" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Beginner"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-3"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
             </soup.neumorphism.NeumorphCardView>
 
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:id="@+id/m1_ch4"
                 android:layout_marginHorizontal="10dp"
                 app:neumorph_shadowColorDark="@color/dark"
                 app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch4" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Beginner"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-4"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m1_ch5"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch5" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Beginner"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-5"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m1_ch6"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch6" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Beginner"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-6"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m1_ch7"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch7" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Intermediate"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-7"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m1_ch8"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch8" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Intermediate"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-8"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m1_ch9"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch9" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Intermediate"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-9"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m1_ch10"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m1_ch10" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Intermediate"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-10"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch11"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch11" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Intermediate"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-11"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
 
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch12"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch12" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Intermediate"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-12"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch13"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch13" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-13"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch14"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch14" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-14"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch15"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch15" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-15"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch16"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch16" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-16"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch17"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch17" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-17"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch18"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch18" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-18"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch19"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch19" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-19"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/m2_ch20"
+                android:layout_marginHorizontal="10dp"
+                app:neumorph_shadowColorDark="@color/dark"
+                app:neumorph_shadowColorLight="@color/light">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    app:neumorph_shapeType="pressed"
+                    app:srcCompat="@drawable/m2_ch20" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/text_color2"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="50dp"
+                    app:cardElevation="50dp"
+                    app:cardCornerRadius="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Advance"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:text="Chapter:-20"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/text_color2"
+                    android:textStyle="bold"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="105dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/text_color2"
+                    app:strokeColor="@color/text_color2"
+                    app:strokeWidth="2dp"
+                    android:text="Explore"/>
             </soup.neumorphism.NeumorphCardView>
         </LinearLayout>
     </ScrollView>
@@ -212,5 +1262,4 @@
                 android:gravity="center"/>
         </LinearLayout>
     </soup.neumorphism.NeumorphCardView>
-
 </LinearLayout>
